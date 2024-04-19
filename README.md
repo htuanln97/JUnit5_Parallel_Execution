@@ -14,4 +14,12 @@ This is repository for demo JUnit5 Parallel Execution
 2.  Add these below dependencies to `pom.xml`.
     -   Go to maven dependency [JUnit Jupiter Engine](https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine/).
     -   In this demo I also used playwright to run, so we will need this dependency as well [Playwright Main Library](https://mvnrepository.com/artifact/com.microsoft.playwright/playwright/).
+3. Create a junit-platform.properties file in `src/test/resources`.
+4. To enable parallel execution, set the `junit.jupiter.execution.parallel.enabled=true`.
+5. Configuration parameters to execute all tests in parallel:
+    ```
+    junit.jupiter.execution.parallel.enabled = true
+    junit.jupiter.execution.parallel.mode.default = concurrent
+
+    ```
 
