@@ -9,6 +9,14 @@ This is repository for demo JUnit5 Parallel Execution
 * By default, JUnit Jupiter tests are run sequentially in a single thread.
 * This feature available as an opt-in feature since version 5.3.
 
+
+### Prerequisite
+
+```
+    Eclipse/IntelliJ
+    Java
+```
+
 ### Setup
 1.  Create simple maven project.
 2.  Add these below dependencies to `pom.xml`.
