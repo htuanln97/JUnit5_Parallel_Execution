@@ -35,6 +35,8 @@ This is repository for demo JUnit5 Parallel Execution
 3. (concurrent, same_thread) – tests from one class run parallel, but each class run separately.
 4. (concurrent, concurrent) – tests run in parallel.
 
+![Execution mode](https://junit.org/junit5/docs/snapshot/user-guide/images/writing-tests_execution_mode.svg)
+
 
 ### Execution Stragegy
 * Properties such as the desired parallelism and the maximum pool size can be configured using a `ParallelExecutionConfigurationStrategy`. The JUnit Platform provides two implementations out of the box: `dynamic` and `fixed`.
