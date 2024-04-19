@@ -11,7 +11,7 @@ This is repository for demo JUnit5 Parallel Execution
 
 ### Setup
 * Create simple maven project.
-* Add these below dependencies to `pom.xml'.
-** Go to maven dependency [JUnit Jupiter Engine](https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine/).
-** In this demo I also used playwright to run, so we will need this dependency as well [Playwright Main Library](https://mvnrepository.com/artifact/com.microsoft.playwright/playwright/).
+* Add these below dependencies to `pom.xml`.
+- Go to maven dependency [JUnit Jupiter Engine](https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine/).
+- In this demo I also used playwright to run, so we will need this dependency as well [Playwright Main Library](https://mvnrepository.com/artifact/com.microsoft.playwright/playwright/).
 
